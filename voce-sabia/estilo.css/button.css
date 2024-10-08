@@ -1,0 +1,15 @@
+button {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 30px;
+    background-color: #e7d513;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border: 10px;
+}
+
+button:hover {
+    transform: scale(1.05);
+}

@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    margin: 0;
+    color: white;
+    background-color: #010313;
+}
+
+header {
+    display: block;
+    padding: 0px auto 0px auto;
+    margin: 20px auto auto auto;
+    text-align: center;
+}
+
+hr {
+    border-color: #2d37b7;
+    margin: auto 30px auto 30px;
+ }
+
+
+h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: Poppins;
+    width: 300px;
+    margin: 30px auto 10px auto;
+    padding: auto;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+p {
+    font-family: Montserrat;
+    width: 320px;
+    text-align: center;
+    margin: auto;
+    padding: 20px 20px 80px 20px;
+}
+
+button {
+    display: list-item;
+    text-align: center;
+    margin: auto auto 150px auto;
+}
+
+a > img {
+    display: list-item;
+    text-align: center;
+    margin: 20px auto 20px auto;
+}
+
+footer {
+    margin-top: 10px;
+}
+
+footer > p {
+    font-family: Montserrat;
+    font-size: 14px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+a:hover {
+    color:#2d37b7;
+    transform: scale(1.05);
+}
+
+li:hover {
+    color:#2d37b7;
+    transform: scale(1.05);
+}
+
+.menor {
+    border-color: #2d37b7;
+    margin: 100px auto 10px auto;
+    width: 300px;
+}

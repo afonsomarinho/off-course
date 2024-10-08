@@ -1,0 +1,37 @@
+.button1 {
+    height: 25px;
+    width: 150px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    font-family: Poppins;
+}
+
+.button1:hover {
+    font-family: Poppins;
+    background-color: transparent;
+    color: #2d37b7;
+    border-color: #2d37b7;
+    transform: scale(1.05);
+}
+
+.button2 {
+    height: 40px;
+    width: 250px;
+    background-color: #2d37b7;
+    border-color: #2d37b7;
+    border-radius: 16px;
+    color: white;
+    font-family: Poppins;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.button2:after {
+    transform: scale(1.10);
+}
+
+a > .button2:hover {
+    color: black;
+    transform: scale(1.05);
+}
